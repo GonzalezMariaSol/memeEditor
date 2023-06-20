@@ -35,13 +35,14 @@ header button{
 main{
     background-color: rgb(255, 255, 255);
     width: 40rem;
-    height: 28.59em; /*maybe we can just put auto*/
+    height: 27.59em; 
     margin: 0 auto; /*it gets my section centered in a vertical way*/
 }
 
-.optionImage{
+.asideImage , .asideText{
     background-color: yellowgreen;
     width: 17rem;
+    height:37.1em;
     overflow-y: scroll;
     margin-top: -37.1em;
     margin-left: 61.3em;
@@ -54,7 +55,7 @@ main{
     padding: 0.8em;
 }
 
-.optionsImage{
+.optionsImage , .optionsText{
     background-color: salmon;
     margin: 0.5em;
 }
@@ -67,11 +68,38 @@ main{
     background-color: rgb(112, 163, 146);
 }
 
-p{
+.customizableImage p{
     text-indent: -0.5em;
 }
 
+.customizableText .subhead{
+    background-color: blueviolet;
+    padding-bottom: 1em;
+}
 
+.optionsText select{
+    background-color: yellow;
+    width: max-content;
+
+}
+.optionsText .fontNumber {
+    background-color: pink;
+    width: 10em;
+    /* margin-top: 0.5em; */
+}
+.fontButtons {
+    background-color: seagreen;
+    width: 9em;
+}
+.fontButtons button{
+    background-color: chartreuse;
+    width: 3em;
+    height: 3em;
+}
+p.backgroundd , p.color{
+    color: azure;
+    
+}
 
 
 
