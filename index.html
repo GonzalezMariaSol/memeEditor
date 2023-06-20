@@ -5,88 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="memeditor.css">
     <title>Meme Editor</title>
 </head>
 <body>
     <header>
         <p>Welcome to Meme Editor</p>
+        <button>Image</button>
+        <button>Text</button>
+        <button><i class="fa-solid fa-lightbulb"></i>Modo oscuro</button>
     </header>
     <main>
         <p>i'm a main</p>
     </main>
-    <section id="customMeme">
-        <aside class="optionImage">
-            <div class="customizableImage">
-                <p class="sectionTitle">Image</p>
-                <div class="optionsImage">
-                    <p class="subtittle">URL</p><input type="url">
-                    <p class="subtittle">BACKGROUND</p><input type="color">
-                    <select name="colorEffect">
-                        <option>Black & White</option>
-                        <option>Sepia</option>
-                        <option>Red</option>
-                    </select>
-                    <p class="subtittle">FILTROS</p>
-                    <p>Brigth</p><input type="range">
-                    <p>Opacity</p><input type="range">
-                    <p>Contrast</p><input type="range">
-                    <p>Blur</p><input type="range">
-                    <p>GRAYSCALE</p><input type="range">
-                    <p>Sepia</p><input type="range">
-                    <p>Hue</p><input type="range">
-                    <p>Saturation</p><input type="range">
-                    <p>Negative</p><input type="range">
-                </div>
-                <input type="reset">
+    <aside class="optionImage">
+        <div class="customizableImage">
+            <p class="sectionTitle">Image</p>
+            <div class="optionsImage">
+                <p class="subhead">URL</p><input type="url">
+                <p class="subhead">BACKGROUND</p><input type="color">
+                <select name="colorEffect">
+                    <option>Black & White</option>
+                    <option>Sepia</option>
+                    <option>Red</option>
+                </select>
+                <p class="subhead">FILTROS</p>
+                <p>Brigth</p><input type="range">
+                <p>Opacity</p><input type="range">
+                <p>Contrast</p><input type="range">
+                <p>Blur</p><input type="range">
+                <p>GRAYSCALE</p><input type="range">
+                <p>Sepia</p><input type="range">
+                <p>Hue</p><input type="range">
+                <p>Saturation</p><input type="range">
+                <p>Negative</p><input type="range">
             </div>
-        </aside>
-        <aside class="optionText">
-            <div class="customizableText">
-                <p class="sectionTitle">Text</p>
-                <div class="optionsText">
-                    <p class="subtittle">SUPERIOR</p><input type="text">
-                    <input type="checkbox">Without superior text
-                    <p class="subtittle">INFERIOR</p><input type="text">
-                    <input type="checkbox">Without inferior text
-                    <p class="subtittle">FONT</p>
-                    <select name="fontOption">
-                        <option>font 1</option>
-                        <option>Font 2</option>
-                        <option>Font 3</option>
-                    </select>
-                    <input type="number" placeholder="40">
-                    <div class="fontButtons">
-                        <button><i class="fa-solid fa-align-left"></i></button>
-                        <button><i class="fa-solid fa-align-justify"></i></button>
-                        <button><i class="fa-solid fa-align-right"></i></button>
-                    </div>
-                    <p class="subtittle">COLOR</p><input type="color">
-                    <p class="subtittle">BACKGROUND</p><input type="color"><input type="checkbox">transparent background
-                    <p class="subtittle">OUTLINE</p>
-                    <div class="outlineButtons">
-                        <button>None</button>
-                        <button>Ligth</button>
-                        <button>Dark</button>
-                    </div>
-                    <p class="subtittle">SPACING</p><input type="number" placeholder="30">
+            <input type="reset" class="resetButton">
+        </div>
+    </aside>
+    <aside class="optionText">
+        <div class="customizableText">
+            <p class="secsubhead">Text</p>
+            <div class="optionsText">
+                <p class="subhead">SUPERIOR</p><input type="text">
+                <input type="checkbox">Without superior text
+                <p class="subhead">INFERIOR</p><input type="text">
+                <input type="checkbox">Without inferior text
+                <p class="subhead">FONT</p>
+                <select name="fontOption">
+                    <option>font 1</option>
+                    <option>Font 2</option>
+                    <option>Font 3</option>
+                </select>
+                <input type="number" placeholder="40">
+                <div class="fontButtons">
+                    <button><i class="fa-solid fa-align-left"></i></button>
+                    <button><i class="fa-solid fa-align-justify"></i></button>
+                    <button><i class="fa-solid fa-align-right"></i></button>
                 </div>
+                <p class="subhead">COLOR</p><input type="color">
+                <p class="subhead">BACKGROUND</p><input type="color"><input type="checkbox">transparent background
+                <p class="subhead">OUTLINE</p>
+                <div class="outlineButtons">
+                    <button>None</button>
+                    <button>Ligth</button>
+                    <button>Dark</button>
+                </div>
+                <p class="subhead">SPACING</p><input type="number" placeholder="30">
             </div>
-        </aside>
-        <button><i class="fa-solid fa-lightbulb"></i>Modo oscuro</button>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>
+    </aside>
     <script src="editorDeMemes.js"></script>
 </body>
 </html>
