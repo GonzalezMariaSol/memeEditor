@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: rgb(85, 85, 85);
 }
 
 body , header button , .resetButton , .outlineButtons button{
@@ -12,12 +12,12 @@ body , header button , .resetButton , .outlineButtons button{
 }
 
 header{
-    background-color: rebeccapurple;
     text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 header p{
-    background-color: red;
     font-size: 2.3em;
     padding: 0.5em;
 }
